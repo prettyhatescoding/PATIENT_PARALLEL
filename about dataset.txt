@@ -1,0 +1,33 @@
+Dataset Overview
+Purpose: Designed for binary and multi-class classification of brain tumors using MRI scans.
+
+Classes:
+
+Glioma (malignant tumor)
+
+Meningioma (typically benign)
+
+Pituitary (usually benign)
+
+No tumor (healthy scans)
+
+Key Features
+Image Format: JPEG files organized into class-specific folders.
+
+Size: ~3.2 GB total, with ~3,000+ images (varies slightly per class).
+
+Resolution: Varies, but generally suitable for deep learning (e.g., 512x512 or similar).
+
+Potential Use Cases
+Binary Classification: Tumor vs. no tumor.
+
+Multi-class Classification: Distinguishing between glioma, meningioma, and pituitary tumors.
+
+Segmentation: Extending the dataset with masks for tumor localization (though masks aren’t included in this version).
+
+Limitations
+Imbalance: Class distribution may not be uniform (common in medical datasets).
+
+Metadata: Limited clinical details (e.g., patient age, scan parameters).
+
+Preprocessing Needed: Resizing, normalization, or augmentation may be required.               and 
